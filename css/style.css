@@ -1,0 +1,126 @@
+ul.horizontal{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-left: 70%;
+    
+}
+
+ul.horizontal li{
+    display: block;
+    float: right;
+    padding: 0 10px;
+}
+
+h1{
+
+}
+
+.centrado{
+    text-align: center;
+}
+
+.ser{
+    background-color: rgb(4, 255, 117);
+    display: block;
+    float: left;
+}
+
+.message{
+    padding: 20px;
+    
+}
+
+.img_ser{
+    height: 100px;
+    width: 150px;
+}
+
+.message img{
+    height: 400px;
+    width: 600px;
+    display: block;
+    float: left;
+}
+
+.message p{
+     font-size-adjust: inherit;
+}
+.bajar{
+    margin-top: 350px;
+}
+footer{
+    margin-top: 320px;
+}
+
+body{
+    background: linear-gradient(
+        to right,
+        #15ff20,
+        #30ff4c,
+        #51ff60,
+        #65ff72,
+        #8bf894,
+        #abf3b1,
+        #c1e9c4,
+        #eafff1
+    );
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    scrollbar-base-color : #ff0000;
+    scrollbar-arrow-color : #e40000; }
+    .nav {
+    color : #FFCC00;
+    font-size : 8pt
+
+}
+::-webkit-scrollbar-corner{
+    color: #e40000;
+}
+
+pre{
+    float: right;
+}
+
+.contenedor {
+    margin: 2rem auto;
+    border: 1px solid #aaa;
+    height: 300px;
+    width:90%;
+    max-width: 400px;
+    background: #f1f2f3;
+    overflow:auto;
+    box-sizing: border-box;
+    padding:0 1rem;
+}
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+::-webkit-scrollbar-button:increment,::-webkit-scrollbar-button {
+    display: none;
+} 
+
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00e9e9a2;
+    border-radius: 20px;
+    border: 2px solid #0080ff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+
