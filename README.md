@@ -1,2 +1,2 @@
-# GoTwitter
-Primer proyecto de un curso de Golang
+# Bio World
+Un proyecto de vida
