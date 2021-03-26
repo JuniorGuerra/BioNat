@@ -184,3 +184,24 @@ pre{
     width: 60%;
     margin-left: 3%;
 }
+
+
+ul.horizontal-main{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-left: 70%;
+    
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    transform: translate(-50%, -50%);
+    
+    color: #00ff00c2;
+}
+
+ul.horizontal-main li{
+    display: block;
+    float: right;
+    padding: 0 10px;
+}
